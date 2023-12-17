@@ -1,0 +1,50 @@
+{
+    "menu1": {
+        "version": "1.0",
+        "title": "CALCULATOR",
+        "options": ["Addition", "Subtraction", "Multiplication", "Division", "Power", "Square root", "Remainder", "Set decimal places", "Retrieve result from memory", "Show history", "Exit"],
+        "is_vertical": true
+    },
+    "menu2": {
+        "version": "1.0",
+        "title": "Welcome to the calculator!",
+        "options": ["Calculate", "Stop calculator"],
+        "is_vertical": true
+    },
+    "menu3": {
+        "version": "1.0",
+        "title": "ASCII ART GENERATOR BY JULIA",
+        "options": ["User Input", "Choose Font", "Choose Text Color", "Select Characters", "Set Art Size", "Generate and preview ASCII Art", "Save to File", "Exit"],
+        "is_vertical": true
+    },
+    "menu4": {
+        "version": "1.0",
+        "title": "ASCII ART GENERATOR BY JULIA",
+        "options": ["Enter text for ASCII art", "Create ASCII art", "Save ASCII art to file", "Exit"],
+        "is_vertical": true
+    },
+    "menu5": {
+        "version": "1.0",
+        "title": "ASCII-ART GENERATOR by Julia",
+        "options": ["Choose figure", "Enter parameters for figure", "Show 3D figure", "Show 2D figure", "Save 3D figure to file", "Exit"],
+        "is_vertical": true
+    },
+    "menu7": {
+        "version": "1.0",
+        "title": "MENU",
+        "options": ["Use API", "View history", "Display data", "Save data", "Exit"],
+        "is_vertical": true
+    },
+    "menu8": {
+        "version": "1.0",
+        "title": "IRIS DATA ANALYSIS",
+        "options": ["Explore Data", "Generate Visualizations", "Save Visualizations", "Exit"],
+        "is_vertical": true
+    },
+    "patterns": {
+        "date": "\\b(3[01]|[12][0-9]|0?[1-9])/(1[0-2]|0?[1-9])/((?:19|20)\\d\\d)\\b",
+        "phone": "\\+\\d{2}[-. (]*\\d{3}[-. )]*\\d{3}[-. ]*\\d{2}[-. ]*\\d{2}",
+        "email": "\\S+@\\S+\\.\\S+",
+        "credit_card": "\\b\\d{4}[-.\\s]?\\d{4}[-.\\s]?\\d{4}[-.\\s]?\\d{4}\\b"
+    }
+}
